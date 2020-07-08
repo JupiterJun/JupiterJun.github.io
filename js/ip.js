@@ -16,8 +16,4 @@ ip.set('city', returnCitySN["cname"]);
 ip.set('browser',useragent);
 ip.set('path',pathname);
 
-ip.save().then((ip) => {
-    console.log(`objectId：${ip.id}`);
-}, (error) => {
-
-});
+ip.save()
