@@ -9,18 +9,18 @@ AV.init({
 const IP = AV.Object.extend('IP');
 
 // 构建对象
-const IP = new IP();
+const ip = new IP();
 
 // 为属性赋值
-IP.set('ip', returnCitySN["cip"]);
-IP.set('cid', returnCitySN["cid"]);
-IP.set('city', returnCitySN["cname"]);
-IP.set('browser', getBrowserInfo());
+ip.set('ip', returnCitySN["cip"]);
+ip.set('cid', returnCitySN["cid"]);
+ip.set('city', returnCitySN["cname"]);
+ip.set('browser', getBrowserInfo());
 
 // 将对象保存到云端
-IP.save().then((IP) => {
+ip.save().then((ip) => {
     // 成功保存之后，执行其他逻辑
-    console.log(`保存成功。objectId：${IP.id}`);
+    console.log(`保存成功。objectId：${ip.id}`);
 }, (error) => {
     // 异常处理
 });
