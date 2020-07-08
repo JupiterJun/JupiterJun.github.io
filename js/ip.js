@@ -1,6 +1,6 @@
 // 记录用户IP和UA
 var pathname = window.location.pathname;
-//var useragent = navigator.userAgent
+var useragent = navigator.userAgent
 AV.init({
     appId: "VSGmCrxfAW5rz5SELuCzwOWX-gzGzoHsz",
     appKey: "pycmoYrCM6dKYG1cmwCvukct",
