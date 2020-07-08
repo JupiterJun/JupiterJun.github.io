@@ -1,5 +1,5 @@
 //document.write('IP地址:' + returnCitySN["cip"] + ', CID:' + returnCitySN["cid"] + ', 地区:' + returnCitySN["cname"] + ",浏览器版本:" + getBrowserInfo());
-
+var pathname = window.location.pathname;
 AV.init({
     appId: "VSGmCrxfAW5rz5SELuCzwOWX-gzGzoHsz",
     appKey: "pycmoYrCM6dKYG1cmwCvukct",
@@ -16,11 +16,12 @@ ip.set('ip', returnCitySN["cip"]);
 ip.set('cid', returnCitySN["cid"]);
 ip.set('city', returnCitySN["cname"]);
 ip.set('browser', getBrowserInfo());
+ip.set('path',pathname);
 
 // 将对象保存到云端
 ip.save().then((ip) => {
     // 成功保存之后，执行其他逻辑
-    console.log(`保存成功。objectId：${ip.id}`);
+    console.log(`objectId：${ip.id}`);
 }, (error) => {
     // 异常处理
 });
