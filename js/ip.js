@@ -2,9 +2,9 @@
 var pathname = window.location.pathname;
 var useragent = navigator.userAgent
 AV.init({
-    appId: "VSGmCrxfAW5rz5SELuCzwOWX-gzGzoHsz",
-    appKey: "pycmoYrCM6dKYG1cmwCvukct",
-    serverURL: "https://vsgmcrxf.lc-cn-n1-shared.com"
+    appId: "xGabresvEiGFcdMmIJCouOUq-gzGzoHsz",
+    appKey: "hvMtv68FBw2HCRPFXe7oHAPy",
+    serverURL: "https://xgabresv.lc-cn-n1-shared.com"
   });
 
 const IP = AV.Object.extend('IP');
