@@ -1,1 +1,6 @@
-# JupiterJun's Personal Website
+# 青章浚的个人站点
+## [点击访问新版页面！！](https://JupiterJun.xyz)
+## 2020年7月16日：域名重大更新
+### 最后一次更新，此页面不再受支持。
+### 16日以前的旧版本页面位于old文件夹中
+### 新版页面：https://JupiterJun.xyz
